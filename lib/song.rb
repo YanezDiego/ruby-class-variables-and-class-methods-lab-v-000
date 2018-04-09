@@ -35,7 +35,7 @@ class Song
     @@genres.uniq.each do |number|
       result[number] = @@genre_count(number)
     binding.pry
-  end
+    end
 
   end
 

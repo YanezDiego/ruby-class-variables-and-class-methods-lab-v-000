@@ -31,6 +31,7 @@ class Song
   end
 
   def self.genre_count
+    count = 0
     unless @@genres_count.include? (@genres)
       @@genres_count[@genres] = count
     end

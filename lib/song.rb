@@ -30,8 +30,8 @@ class Song
     @@genres.uniq
   end
 
-  def self.genre_count (genres, count)
-    unless @@genres_count.include? (genres)
+  def self.genre_count
+    unless @@genres_count.include? (@genres)
       @@genres_count[genres] = count
     end
     binding.pry

@@ -32,12 +32,7 @@ class Song
 
   def self.genre_count
     binding.pry
-    count = 0
-    unless @@genre_count.include? (@genres)
-      @@genre_count[@genres] = count
-      count+=1
-    end
-    @@genre_count
+    
   end
 
 

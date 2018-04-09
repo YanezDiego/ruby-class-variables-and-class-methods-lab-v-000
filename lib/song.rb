@@ -3,7 +3,7 @@ require 'pry'
 class Song
 
 
-  def initialize
+  def initialize(name, artist, genre)
 
   end
 

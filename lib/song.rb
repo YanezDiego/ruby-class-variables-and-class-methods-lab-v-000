@@ -31,7 +31,9 @@ class Song
   end
 
   def self.genre_count (genres, count)
-
+    unless @@genres_count.include? (genres)
+      @@genres_count[genres] = count
+    end
   end
 
 

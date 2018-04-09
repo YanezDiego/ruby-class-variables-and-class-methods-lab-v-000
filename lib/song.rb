@@ -34,6 +34,7 @@ class Song
     count = 0
     unless @@genres_count.include? (@genres)
       @@genres_count[@genres] = count
+      count+=1
     end
     binding.pry
     @@genre_count

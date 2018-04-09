@@ -45,7 +45,6 @@ class Song
       result[number] = @@artists(number)
     end
     result
-
   end
 
 end

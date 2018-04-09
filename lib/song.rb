@@ -31,7 +31,11 @@ class Song
   end
 
   def self.genre_count
+    result = Hash.new
+    @@genres.uniq.each do |number|
+      result[number] = @@genre_count(number)
     binding.pry
+  end
 
   end
 

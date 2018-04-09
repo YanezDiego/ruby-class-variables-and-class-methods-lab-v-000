@@ -34,7 +34,6 @@ class Song
     result = Hash.new
     @@genres.uniq.each do |number|
       result[number] = @@genres.count(number)
-    binding.pry
     end
     result
   end

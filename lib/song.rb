@@ -36,7 +36,7 @@ class Song
       result[number] = @@genre_count(number)
     binding.pry
     end
-
+    result
   end
 
   def self.artist_count

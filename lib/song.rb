@@ -9,6 +9,7 @@ class Song
 
   def name (name)
     @name
+  end
 
 
 
